@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/153bf828-3e1e-48f9-8e6d-7f69c8e188aa/resourceGroups/0armdeployfunc56rg/providers/microsoft.insights/components/armdeployfunc56fa</ApplicationInsightsResourceId>
+    <UserSecretsId>d5d8a7c2-b6ea-4365-9798-fe1e1da2130c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
+
+</Project>
